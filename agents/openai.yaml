@@ -1,0 +1,4 @@
+interface:
+  display_name: "grill-me-HH"
+  short_description: "通过第一性原理逐轮检验计划、决策、关键假设与失败条件"
+  default_prompt: "Use $grill-me-hh to stress-test this plan one material decision at a time."
