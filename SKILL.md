@@ -1,6 +1,6 @@
 ---
 name: grill-me-hh
-description: 通过逐轮访谈和第一性原理检验计划、决策或想法，暴露关键假设、证据缺口、依赖与失败条件，直到达成共同理解。Use when the user wants to pressure-test or stress-test a plan, decision, or idea, including requests containing phrases such as "grill me", "grill this", or "stress-test".
+description: 通过逐轮访谈和第一性原理检验计划、决策或想法，暴露关键假设、证据缺口、依赖与失败条件；达成共同理解后形成 Markdown 记录。Use when the user wants to pressure-test or stress-test a plan, decision, or idea, including requests containing phrases such as "grill me", "grill this", or "stress-test".
 ---
 
 # Grill Me HH
@@ -41,3 +41,9 @@ Once the subject is coherent, test the strongest opposing case. For high-impact,
 Finish only when the objective, constraints, material branches, pivotal assumptions, evidence gaps, strongest alternative, and relevant failure or exit conditions are clear, and no unresolved question could materially change the recommendation. Summarize confirmed facts, inferences, unverified hypotheses, constraints/preferences, the recommendation, its invalidation conditions, and remaining uncertainties. For a low-cost reversible choice, stop as soon as one plausible hidden constraint and the strongest counterargument have been resolved.
 
 Do not act on the plan, decision, or idea until the user explicitly confirms that shared understanding has been reached.
+
+## Record the agreement
+
+After the final synthesis, wait for the user to explicitly confirm that it captures the shared understanding. Incorporate corrections before recording it. Once confirmed, create a Markdown file that preserves the agreed decision or plan; creating this record does not authorize implementing the plan.
+
+Use the relevant project's existing documentation location and naming conventions when clear. Otherwise, ask the user where to save the file before writing it; do not silently place a decision record in the home directory or an unrelated repository. Keep the file concise and specific to the discussion. Include the objective and agreed outcome, the evidence and reasoning that matter, the strongest counterargument, invalidation or stop conditions, and unresolved questions or next steps where relevant. Clearly distinguish confirmed facts, inferences, unverified hypotheses, and constraints or preferences. Cite or link verifiable sources when available. Do not present open questions as settled decisions or turn the record into an implementation spec unless the user asked for one.
